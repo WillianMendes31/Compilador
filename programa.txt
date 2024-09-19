@@ -1,0 +1,10 @@
+10 rem WILLIAN
+20 rem BASIC SOM.
+30 print "Digite o número"
+40 S=0 : input N
+50 A=N
+60 if A<=0 goto 90
+70 S=S+A : A=A-1
+80 goto 60
+90 print N : print S
+100 halt
